@@ -23,6 +23,3 @@ models:
                   - return_pending
                   - returned
                   - placed
-            - relationships:
-                to: ref('stg_customers')
-                field: customer_id
